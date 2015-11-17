@@ -47,7 +47,7 @@ var DeckTwo = new deck();
 var myDeck = DeckOne.concat(DeckTwo);
 window.onload = function(){
 
-  //shuffle(myDeck);
+  shuffle(myDeck);
   //Loop for all 52 cards in the deck
   for(var i = 0; i< myDeck.length; i++)
   {
