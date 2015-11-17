@@ -66,7 +66,7 @@ window.onload = function(){
         var currentCardValue = this.querySelector(".number").innerHTML;
         var currentcardSuit = this.querySelector(".suit").innerHTML;
         var previousCardValue = document.getElementsByClassName("show")[0].innerHTML;
-        var previousCardSuit = document.getElementsByClassName("show")[0].innerHTML;
+        var previousCardSuit = document.getElementsByClassName("show")[1].innerHTML;
         if(currentCardValue==previousCardValue && currentcardSuit == previousCardSuit)
         {
           players[playerCounter].score+=10;
